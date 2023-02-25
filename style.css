@@ -1,0 +1,128 @@
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .google-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  form {
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4285F4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #357ae8;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .google-form {
+      width: 90%;
+      margin: 0 auto;
+    }
+    label {
+      font-size: 12px;
+    }
+  input[type="text"], 
+  input[type="email"], 
+  input[type="password"] {
+      width: 100%;
+      padding: 10px;
+    }
+  input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .google-form {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #444;
+  }
+  
+  .dark-mode form {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode input[type="text"],
+  .dark-mode input[type="email"],
+  .dark-mode input[type="password"] {
+    background-color: #444;
+    border-color: #666;
+    color: #fff;
+  }
+  
+  .dark-mode input[type="submit"] {
+    background-color: #666;
+  }
+  
+  #dark-mode-btn {
+    background-color: #4285F4; /* google blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  #dark-mode-btn:hover {
+    background-color: #357ae8;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode input[type="submit"] {
+    background-color: #666;
+  }
+  
+  .dark-mode input[type="submit"]:hover {
+    background-color: #777;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode #dark-mode-btn {
+    background-color: #666;
+    color: white;
+  }
+  
+  
